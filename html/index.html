@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+	<!-- author: Chaoqun Ding -->
+	<head>
+		<title>Assignment 06 | COMP2132</title>
+		<meta charset="utf-8" />
+        <script src="../scripts/assignment06.js" defer></script>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Assignment06 | COMP2132</h1>
+			</header>
+			<main>
+				<form action="../html/thank-you.html" method="post" id="myform">
+					<div class="datas">
+						<label for="firstname">First Name:</label>
+						<input class="fields" type="text" id="firstname" name="firstname">
+					</div>
+
+					<div class="datas" id="lastname-row">
+						<label for="lastname">Last Name:</label>
+						<input class="fields" type="text" id="lastname" name="lastname" >
+					</div>
+				
+					<div class="datas">
+						<label for="studentid">Student ID:</label>
+						<div class="fields" id="studentid-field">
+							<input type="text" id="studentid" name="studentid" >
+							<button id="question-mark">?</button>	
+						</div>
+					
+					</div>
+				
+					<div class="datas">
+						<label for="password">Password:</label>
+						<div class="fields" id="password-field">
+							<input type="password" id="password" name="password" >
+							<button id="show-hide">Show</button>				
+						</div>
+
+					</div>
+			
+					<div class="datas">
+						<label for="date">Date:</label>
+						<input class="fields" type="date" id="date" name="date" onkeydown="return false">
+					</div>
+				
+					<div class="datas">
+						<label for="course">Course:</label>
+						<select class="fields" name="course" id="course">
+							<option value="unselected">Choose Your Course:</option>
+							<option value="comp1850">COMP 1850</option>
+							<option value="comp2132">COMP 2132</option>
+							<option value="comp2913">COMP 2913</option>
+							<option value="comp3012">COMP 3012</option>
+							<option value="comp3015">COMP 3015</option>
+						</select>
+					</div>
+									           
+					<div>
+						<input type="submit" value="Submit" id="submit">
+					</div>
+					
+					<div id="errors"></div>
+				</form>
+
+
+			</main>
+			<footer>
+				<h2>Assignment06 | COMP2132</h2>
+			</footer>
+		</div>
+		
+	</body>
+</html>
+
+
